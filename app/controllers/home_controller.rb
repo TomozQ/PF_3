@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def top
   end
 
-  def salonguide
+  def menu
   end
-  
+
 end
