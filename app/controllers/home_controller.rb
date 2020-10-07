@@ -5,4 +5,7 @@ class HomeController < ApplicationController
   def menu
   end
 
+  def staff
+  end
+
 end
