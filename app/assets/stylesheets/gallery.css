@@ -33,6 +33,37 @@
   }
 }
 
-@media screen and (min-width: 1024px){
-
+@media screen and (max-width: 1024px){
+  .galleryWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .galleryContents{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .galleryContent{
+    padding: 10px;
+  }
+  img.galleryImageIn{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .more{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  a.moreLink{
+    color: #fff;
+    background-color: #111;
+    padding: 20px 60px;
+    letter-spacing: 1px;
+  }
 }
