@@ -8,4 +8,6 @@ class HomeController < ApplicationController
   def staff
   end
 
+  def gallery
+  end
 end

@@ -1,0 +1,38 @@
+@media screen and (min-width: 1025px){
+  .galleryWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .galleryContents{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .galleryContent{
+    padding: 10px;
+  }
+  img.galleryImageIn{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .more{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  a.moreLink{
+    color: #fff;
+    background-color: #111;
+    padding: 20px 60px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+}
