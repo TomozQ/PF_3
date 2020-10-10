@@ -10,4 +10,8 @@ class HomeController < ApplicationController
 
   def gallery
   end
+
+  def access
+  end
+  
 end
