@@ -1,0 +1,79 @@
+@media screen and (min-width: 1025px){
+  .middleAccess{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .accessWrapper{
+    width: 95%;
+    display: flex;
+    height: 600px;
+    border-top: 8px solid #111;
+  }
+  .accessLeft{
+    width: 50%;
+    padding: 40px;
+  }
+  p.accessText{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  p.accessInfo{
+    margin-left: 110px;
+    margin-top: -20px;
+  }
+  .accessRight{
+    width: 50%;
+    margin-top: 40px;
+  }
+  img.accessImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .accessBottom{
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .middleAccess{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .accessWrapper{
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .accessLeft{
+    width: 100%;
+    border-top: 2px solid #111;
+    padding-top: 10px;
+  }
+  p.accessText{
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  p.accessInfo{
+    margin-left: 110px;
+    margin-top: -20px;
+  }
+  .accessRight{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  img.accessImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .accessBottom{
+    margin-bottom: 40px;
+  }
+}
