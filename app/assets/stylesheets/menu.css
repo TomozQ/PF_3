@@ -89,4 +89,10 @@
   p.bold{
     font-weight: bold;
   }
+  p.color{
+    color: rgb(240, 167, 78);
+  }
+  p.menuText{
+    font-size: 12px;
+  }
 }
